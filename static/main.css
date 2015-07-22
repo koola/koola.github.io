@@ -437,11 +437,15 @@ article.index:last-of-type header {
     }
 
     #mobileNavToggle:checked~#site-body .mobile-nav-toggle-label .top-bar {
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
         transform: rotate(45deg);
         position: absolute;
         top: 17px;
     }
     #mobileNavToggle:checked~#site-body .mobile-nav-toggle-label .bottom-bar {
+        -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
         transform: rotate(-45deg);
         position: absolute;
         top: 17px;
@@ -451,6 +455,8 @@ article.index:last-of-type header {
     }
 
     #mobileNavToggle:checked~#site-body {
+        -webkit-transform: translate3d(-260px,0,0);
+        -ms-transform: translate3d(-260px,0,0);
         transform: translate3d(-260px,0,0);
     }
     #mobileNavToggle:checked~#mobile-nav {
