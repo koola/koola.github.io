@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title><![CDATA[jmerson.me]]></title>
+    <link href="http://localhost/atom.xml" ref="self"/>
+    <link href="http://localhost/"/>
+    <id>http://localhost/</id>
+    <updated>2015-07-22T09:18:51.309Z</updated>
+    <entry>
+         <title><![CDATA[Hello Blog]]></title>
+         <link href="http://localhost/post/2015/07/22/hello-world.html"></link>
+         <updated>2015-07-22T07:13:00.000Z</updated>
+         <id>2015-07-22-hello-world</id>
+         <summary type="html"><![CDATA[<p>This is your first post!</p>
+<pre><code class="lang-javascript"><span class="hljs-built_in">console</span>.log(<span class="hljs-string">"hello"</span>);
+</code></pre>
+]]></summary>
+    </entry>
+</feed>
